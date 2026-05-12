@@ -1,0 +1,425 @@
+* {
+    margin: 0px;
+    padding: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+font-weight: bold;
+}
+
+
+table {
+    border-spacing: 0px;    
+}
+
+table th{
+    top: 0px;
+    background-color: #000;
+    text-align: left;
+} 
+
+table td {
+    text-align: left;
+    font-size: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    background-color: #333;
+    color: #fff;
+}
+.w2{
+width: 70px;
+}
+.w3{
+width: 30px;
+}
+.w7{
+width: 20px;
+}
+
+.a1{
+    background-color: blue;
+}
+
+.a2{
+    background-color: brown;
+}
+
+.a3{
+    background-color: green;
+}
+
+.a4{
+    background-color: purple;
+}
+
+.a5{
+    color: cyan;
+}
+
+img{
+width: 100px;
+}
+
+.r {
+    background:linear-gradient(red);
+    color: white;
+}
+
+.b {
+    background:linear-gradient(blue);
+    color: white;
+}
+.y {
+    background:linear-gradient(yellow);
+    color: black;
+}
+.g {
+    background:linear-gradient(green);
+    color: white;
+}
+.w {
+    background:linear-gradient(white);
+    color: black;
+}
+.k {
+    background:linear-gradient(black);
+    color: white;
+}
+.p {
+    background:linear-gradient(purple);
+    color: white;
+}
+
+.rb {
+    background:linear-gradient(90deg,red 50%,blue 50%);
+    color: white;
+}
+
+.ry {
+    background:linear-gradient(90deg,red 50%,yellow 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rg {
+    background:linear-gradient(90deg,red 50%,green 50%);
+    color: white;
+}
+
+.rw {
+    background:linear-gradient(90deg,red 50%,white 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rk {
+    background:linear-gradient(90deg,red 50%,black 50%);
+    color: white;
+}
+
+.rp {
+    background:linear-gradient(90deg,red 50%,purple 50%);
+    color: white;
+}
+
+.br {
+    background:linear-gradient(90deg,blue 50%,red 50%);
+    color: white;
+}
+
+.by {
+    background:linear-gradient(90deg,blue 50%,yellow 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.bg {
+    background:linear-gradient(90deg,blue 50%,green 50%);
+    color: white;
+}
+
+.bw {
+    background:linear-gradient(90deg,blue 50%,white 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.bk {
+    background:linear-gradient(90deg,blue 50%,black 50%);
+    color: white;
+}
+
+.bp {
+    background:linear-gradient(90deg,blue 50%,purple 50%);
+    color: white;
+}
+
+.gr {
+    background:linear-gradient(90deg,green 50%,red 50%);
+    color: white;
+}
+
+.gb {
+    background:linear-gradient(90deg,green 50%,blue 50%);
+    color: white;
+}
+
+.gy {
+    background:linear-gradient(90deg,green 50%,yellow 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.gw {
+    background:linear-gradient(90deg,green 50%,white 50%);
+    color: white;
+}
+
+.gk {
+    background:linear-gradient(90deg,green 50%,black 50%);
+    color: white;
+}
+
+.gp {
+    background:linear-gradient(90deg,green 50%,purple 50%);
+    color: white;
+}
+
+.yr {
+    background:linear-gradient(90deg,yellow 50%,red 50%);
+    color: black;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+}
+
+.yb {
+    background:linear-gradient(90deg,yellow 50%,blue 50%);
+    color: black;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+}
+
+.yg {
+    background:linear-gradient(90deg,yellow 50%,green 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.yw {
+    background:linear-gradient(90deg,yellow 50%,white 50%);
+    color: black;
+}
+
+.yk {
+    background:linear-gradient(90deg,yellow 50%,black 50%);
+    color: black;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+}
+
+.yp {
+    background:linear-gradient(90deg,yellow 50%,purple 50%);
+    color: black;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+}
+
+.wr {
+    background:linear-gradient(90deg,white 50%,red 50%);
+    color: black;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+}
+
+.wb {
+    background:linear-gradient(90deg,white 50%,blue 50%);
+    color: white;
+}
+
+.wy {
+    background:linear-gradient(90deg,white 50%,yellow 50%);
+    color: white;
+}
+
+.wg {
+    background:linear-gradient(90deg,white 50%,green 50%);
+    color: white;
+}
+
+.wk {
+    background:linear-gradient(90deg,white 50%,black 50%);
+    color: white;
+}
+
+.wp {
+    background:linear-gradient(90deg,white 50%,purple 50%);
+    color: white;
+}
+
+.kr {
+    background:linear-gradient(90deg,black 50%,red 50%);
+    color: white;
+}
+
+.kb {
+    background:linear-gradient(90deg,black 50%,blue 50%);
+    color: white;
+}
+
+.ky {
+    background:linear-gradient(90deg,black 50%,yellow 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.kg {
+    background:linear-gradient(90deg,black 50%,green 50%);
+    color: white;
+}
+
+.kw {
+    background:linear-gradient(90deg,black 50%,white 50%);
+    color: white;
+}
+
+.kp {
+    background:linear-gradient(90deg,black 50%,purple 50%);
+    color: white;
+}
+
+.pr {
+    background:linear-gradient(90deg,purple 50%,red 50%);
+    color: white;
+}
+
+.pb {
+    background:linear-gradient(90deg,purple 50%,blue 50%);
+    color: white;
+}
+
+.py {
+    background:linear-gradient(90deg,purple 50%,yellow 50%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.pg {
+    background:linear-gradient(90deg,purple 50%,green 50%);
+    color: white;
+}
+
+.pw {
+    background:linear-gradient(90deg,purple 50%,white 50%);
+    color: white;
+}
+
+.pk {
+    background:linear-gradient(90deg,purple 50%,black 50%);
+    color: white;
+}
+
+.pk {
+    background:linear-gradient(90deg,purple 50%,black 50%);
+    color: white;
+}
+
+.rby {
+    background:linear-gradient(90deg,red 33%,blue 34%,66%,yellow 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.brg {
+    background:linear-gradient(90deg,blue 33%,red 34%,66%,green 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.grb {
+    background:linear-gradient(90deg,green 33%,red 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rgb {
+    background:linear-gradient(90deg,red 33%,green 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rwb {
+    background:linear-gradient(90deg,red 33%,white 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rpk {
+    background:linear-gradient(90deg,red 33%,purple 34%,66%,black 33%);
+    color: white;
+}
+
+.bwr {
+    background:linear-gradient(90deg,blue 33%,white 34%,66%,red 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rkb {
+    background:linear-gradient(90deg,red 33%,black 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rpb {
+    background:linear-gradient(90deg,red 33%,purple 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.ryk {
+    background:linear-gradient(90deg,red 33%,yellow 34%,66%,black 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.rbg {
+    background:linear-gradient(90deg,red 33%,blue 34%,66%,green 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.kyr {
+    background:linear-gradient(90deg,black 33%,yellow 34%,66%,red 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.gyk {
+    background:linear-gradient(90deg,green 33%,yellow 34%,66%,black 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.bky {
+    background:linear-gradient(90deg,blue 33%,black 34%,66%,yellow 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.pky {
+    background:linear-gradient(90deg,purple 33%,black 34%,66%,yellow 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.gyb {
+    background:linear-gradient(90deg,green 33%,yellow 34%,66%,blue 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.ybk {
+    background:linear-gradient(90deg,yellow 33%,blue 34%,66%,black 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
+
+.wbg {
+    background:linear-gradient(90deg,white 33%,blue 34%,66%,green 33%);
+    color: white;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+}
